@@ -1,0 +1,3648 @@
+/*
+
+Al finald e todo, hago lo responsivo:
+agrego 
+flex-wrap: wrap;
+    min-width: 1500px;
+
+en los grandes contenedores de cada seccion.
+luego ire acomodando los elementos
+    */
+
+
+/*Body*/
+/* body{
+    min-width: 100px;
+    flex-wrap: wrap;
+    min-widht: 1500px;
+    
+} */
+
+
+/*Preheader***********************************************/
+.biblio {
+    background-color: rgb(250, 240, 224);
+    background-image: url("imagenes/biblio.png");
+    height: 38px;
+    background-size: 122px;
+    background-position: center; /* Centra la imagen vertical y horizontalmente */
+
+
+    flex-wrap: wrap;
+     
+     
+}
+
+
+/*HEADER******************************/
+header{
+    background-color: rgb(94, 204, 255);
+    height: 70px;
+    margin-top: -16px;
+
+width: 100%;
+max-width: 1400px;
+
+flex-wrap: wrap;
+ 
+    
+    
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+li{
+    list-style:none;
+    align-items: center;
+    margin-right: 20px;
+     
+    
+}
+.links{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px; 
+}  
+.links:hover{
+    background-color: rgb(146, 146, 255);
+    border-radius: 50%;
+}    
+     
+ 
+ .logo{
+      
+    height: 50px;
+    margin-right: 10px;
+
+    margin-left: -13px;
+    margin-top: 3px;
+    list-style:none;
+    align-items: center;
+    margin-right: 200px;
+ }
+
+ .redes{
+       
+ margin-left: 358px;
+ }
+     
+ /*CUERPO*******************************************************/
+/*fondo imagen*/
+ .cuerpo{
+    background-image: url(imagenes/fondo.jpg);
+    height: 1000px;
+    flex-wrap: wrap;
+     
+ 
+
+    
+}
+
+         /*boton buscar*/
+
+/*d-flex  ambos botones*/
+.d-flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+/*boton de escribir*/
+.form-control{
+    background-color: rgb(234, 241, 239);
+    height: 30px;
+    width: 190px;
+    border-radius: 20px;
+}
+/* boton de clic*/
+.btn{
+    color: aliceblue;
+    background-color: rgb(67, 151, 60);
+    border-radius: 15%;
+     height: 30px;
+
+}
+
+
+     /*tarjetas*/
+.arrow{ 
+    margin-top: 20px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;}     
+ 
+/*imagen de la tarjeta*/
+.card-img-top{
+     
+    border-color: black;
+    border-style: double;
+    margin-left: 10px;
+    height: 359px;
+    width: 233px;
+}
+
+
+ 
+
+
+
+ /*pie de la tarjeta (base)*/
+.card-body1{
+    border-color: black;
+    border-style: double;
+    background-color: antiquewhite; 
+    margin-top: -5px;
+    width: 232px;
+    margin-left: 10px;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+}
+
+
+.card-body2{
+    border-color: black;
+    border-style: double;
+    background-color: rgb(255, 199, 230); 
+    margin-top: -5px;
+    width: 232px;
+    margin-left: 10px;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+}   
+
+.card-body3{
+    border-color: black;
+    border-style: double;
+    background-color: rgb(195, 255, 167); 
+    margin-top: -5px;
+    width: 232px;
+    margin-left: 10px;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+} 
+
+.card-body4{
+    border-color: black;
+    border-style: double;
+    background-color: rgb(218, 255, 253); 
+    margin-top: -5px;
+    width: 232px;
+    margin-left: 10px;
+    border-bottom-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+} 
+
+    
+   /*texto de la tarjeta*/
+
+.card-text{
+    color: black;
+    padding-top: 28px;
+    padding-right: 10px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+    font-style: oblique;
+    margin-top: -20px;
+    text-decoration: none;
+}
+     
+
+
+/*caja con poema*/
+.caja {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con 70% de opacidad */
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto visual */
+}
+    
+ 
+
+
+/*FOOTER******************************************************************/
+footer{
+    height: 200px;
+    background-image: url(imagenes/footer.jpg);
+     
+    
+    padding-top: 5px;
+    padding-left: 50px;
+    
+
+    flex-wrap: wrap;
+    
+ 
+    
+    
+}
+.container{
+    display: flex;
+     
+    
+     
+}
+
+.row{
+    margin-right: 450px;
+     width: 100px;
+    justify-content: center;
+    align-items: center;   
+     
+}
+
+.col{
+   
+}
+
+
+.items{
+    text-decoration: none;
+    font-size: larger;
+    
+}
+.items:hover{
+    color: rgb(255, 9, 9);
+    background-color: rgb(197, 218, 13);
+     
+}
+
+
+
+/**************************Boton de WhatsaApp*************************************************************/
+
+   /* Estilos para el botón de WhatsApp */
+   .whatsapp-button {
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la pantalla */
+    right: 20px; /* Distancia desde el lado derecho */
+    background-color: #25D366; /* Color de WhatsApp */
+    border-radius: 50%; /* Hacerlo redondo */
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1000; /* Asegurarse de que esté encima de otros elementos */
+    cursor: pointer;
+}
+
+/* Estilo para el ícono */
+.whatsapp-button img {
+    width: 35px; /* Tamaño del icono */
+    height: 35px;
+}
+
+
+
+
+ 
+
+@media screen and (max-width: 5000px) 
+{  
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+     width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin-left: 1500px;
+
+
+    
+}
+
+.navbar{
+    width: 100%;
+    flex-direction: column;
+     
+
+}
+.ul{
+ size: 80px;
+}
+
+.links{
+ font-size: 18px; /*achico un poco las letras del centro del header */
+   
+  
+}
+
+
+.logo{
+    flex-wrap: wrap;
+    height: 60px;
+    margin-right: 10px;
+
+    margin-left: -18px;
+    margin-top: 2px;
+    list-style:none;
+    align-items: center;
+    margin-right: 90px;
+    height: 50px;
+    
+ }
+
+ .redes{
+  flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+ margin-left: 52px;
+ margin-right: 8px;
+ margin-top: 10px;
+ }   
+
+
+
+
+ .cuerpo{
+    height: 1100px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    width: 148px;
+     
+    
+     
+}
+ 
+.row{     
+    flex-wrap: wrap;
+    margin-left: 750px;
+    margin-right: 700px;
+    flex-direction: column;
+    
+    
+
+     
+     
+}
+
+
+
+
+.wasap{
+flex-wrap: wrap;
+
+
+}
+
+.whatsapp-button{flex-wrap: wrap;
+position: fixed; /* Fijo en la pantalla */
+bottom: -990px; /* Distancia desde el fondo de la pantalla */
+left: 100px; /* Distancia desde el lado derecho */
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 4000px) 
+{  
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+    
+       background-size: 70px;
+     width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    flex-direction:column;
+    margin-left: 1200px;
+    
+}
+
+.navbar{
+    width: 100%;
+    flex-direction: column;
+     
+
+}
+.ul{
+ size: 80px;
+}
+
+.links{
+ font-size: 18px; /*achico un poco las letras del centro del header */
+   
+  
+}
+
+
+.logo{
+    flex-wrap: wrap;
+    height: 60px;
+    margin-right: 10px;
+
+    margin-left: -18px;
+    margin-top: 2px;
+    list-style:none;
+    align-items: center;
+    margin-right: 90px;
+    height: 50px;
+    
+ }
+
+ .redes{
+  flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+ margin-left: 52px;
+ margin-right: 8px;
+ margin-top: 10px;
+ }   
+
+
+
+
+ .cuerpo{
+    height: 1100px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    width: 148px;
+     
+    
+     
+}
+ 
+.row{     
+    flex-wrap: wrap;
+    margin-left: 750px;
+    margin-right: 600px;
+    flex-direction: column;
+   
+    
+
+     
+     
+}
+
+
+
+
+.wasap{
+flex-wrap: wrap;
+
+
+}
+
+.whatsapp-button{flex-wrap: wrap;
+position: fixed; /* Fijo en la pantalla */
+bottom: 390px; /* Distancia desde el fondo de la pantalla */
+left: 2000px; /* Distancia desde el lado derecho */
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2942px) 
+{  
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+     width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    flex-direction:column;
+    margin-left: 650px;
+    
+}
+
+.navbar{
+    width: 100%;
+    flex-direction: column;
+     
+
+}
+.ul{
+ size: 80px;
+}
+
+.links{
+ font-size: 18px; /*achico un poco las letras del centro del header */
+   
+  
+}
+
+
+.logo{
+    flex-wrap: wrap;
+    height: 60px;
+    margin-right: 10px;
+
+    margin-left: -18px;
+    margin-top: 2px;
+    list-style:none;
+    align-items: center;
+    margin-right: 90px;
+    height: 50px;
+    
+ }
+
+ .redes{
+  flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+ margin-left: 52px;
+ margin-right: 8px;
+ margin-top: 10px;
+ }   
+
+
+
+
+ .cuerpo{
+    height: 1100px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    width: 148px;
+     
+    
+     
+}
+ 
+.row{     
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 400px;
+    flex-direction: column;
+ 
+    
+
+     
+     
+}
+
+
+
+
+.wasap{
+flex-wrap: wrap;
+
+
+}
+
+.whatsapp-button{flex-wrap: wrap;
+position: fixed; /* Fijo en la pantalla */
+bottom: 390px; /* Distancia desde el fondo de la pantalla */
+left: 1500px; /* Distancia desde el lado derecho */
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2340px) 
+{  
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+     width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    flex-direction:column;
+    margin-left: 300px;
+    
+}
+
+.navbar{
+    width: 100%;
+    flex-direction: column;
+     
+
+}
+.ul{
+ size: 80px;
+}
+
+.links{
+ font-size: 18px; /*achico un poco las letras del centro del header */
+   
+  
+}
+
+
+.logo{
+    flex-wrap: wrap;
+    height: 60px;
+    margin-right: 10px;
+
+    margin-left: -18px;
+    margin-top: 2px;
+    list-style:none;
+    align-items: center;
+    margin-right: 90px;
+    height: 50px;
+    
+ }
+
+ .redes{
+  flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+ margin-left: 52px;
+ margin-right: 8px;
+ margin-top: 10px;
+ }   
+
+
+
+
+ .cuerpo{
+    height: 1100px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    width: 148px;
+     
+    
+     
+}
+ 
+.row{     
+    flex-wrap: wrap;
+    margin-left: 290px;
+    margin-right: 250px;
+    flex-direction: column;
+    
+    
+
+     
+     
+}
+
+
+
+
+.wasap{
+flex-wrap: wrap;
+
+
+}
+
+.whatsapp-button{flex-wrap: wrap;
+position: fixed; /* Fijo en la pantalla */
+bottom: 390px; /* Distancia desde el fondo de la pantalla */
+left: 1600px; /* Distancia desde el lado derecho */
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1800px) 
+{  
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+     width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    flex-direction:column;
+    margin-left: 80px;
+    
+}
+
+.navbar{
+    width: 100%;
+    flex-direction: column;
+     
+
+}
+.ul{
+ size: 80px;
+}
+
+.links{
+ font-size: 18px; /*achico un poco las letras del centro del header */
+   
+  
+}
+
+
+.logo{
+    flex-wrap: wrap;
+    height: 60px;
+    margin-right: 10px;
+
+    margin-left: -18px;
+    margin-top: 2px;
+    list-style:none;
+    align-items: center;
+    margin-right: 90px;
+    height: 50px;
+    
+ }
+
+ .redes{
+  flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+ margin-left: 52px;
+ margin-right: 8px;
+ margin-top: 10px;
+ }   
+
+
+
+
+ .cuerpo{
+    height: 1100px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 300px;
+   }
+
+   .footer{
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    width: 148px;
+     
+    
+     
+}
+ 
+.row{     
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 300px;
+    flex-direction: column;
+     
+    
+
+     
+     
+}
+
+
+
+
+.wasap{
+flex-wrap: wrap;
+
+
+}
+
+.whatsapp-button{flex-wrap: wrap;
+position: fixed; /* Fijo en la pantalla */
+bottom: 390px; /* Distancia desde el fondo de la pantalla */
+left: 1300px; /* Distancia desde el lado derecho */
+ 
+}
+
+
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*
+@media screen and (max-width: 902px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       background-color: #255cd3;
+       background-size: 70px;
+     width: 100%;
+     
+       
+   }
+   .header{
+       width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 18px; /*achico un poco las letras del centro del header */
+      
+     
+/*}
+   
+ /* 
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 90px;
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+   /* margin-left: 52px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+
+
+
+
+
+
+.cuerpo{
+    height: 2600px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   /*}
+/*
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+   
+   .footer{
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: column;
+       width: 148px;
+       
+        
+   }
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 100px;
+       flex-direction: column;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;
+   position: fixed; /* Fijo en la pantalla */
+ /*  bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   /*left: 700px; /* Distancia desde el lado derecho */
+/*}
+
+
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1542px) 
+{
+    .body{
+         flex-wrap: wrap;
+        
+    }
+    .biblio{  
+        
+        flex-wrap: wrap;
+        
+        
+        background-size: 70px;
+      width: 100%;
+      
+        
+    }
+    .header{
+        width: 100%;
+        flex-direction:column;
+        margin-left: 60px;
+        
+    }
+
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+
+
+   
+    .logo{
+        flex-wrap: wrap;
+        height: 60px;
+        margin-right: 12px;
+    
+        margin-left: -18px;
+        margin-top: 2px;
+        list-style:none;
+        align-items: center;
+        margin-right: 150px;
+        height: 50px;
+        
+     }
+    
+     .redes{
+      flex-wrap: wrap;
+     margin-left: 100px;
+     margin-top: 15px;
+     }   
+
+ 
+
+
+
+
+
+.cuerpo{
+     height: 1600px;
+         
+         
+    }
+     
+
+    .arrow{
+        flex-wrap: wrap;
+        
+        /*flex-direction: column;
+         */
+         
+    }
+
+    .col{
+        
+        width:10px;
+        margin-right: 300px;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        width: 88px;
+        
+         
+    }
+     
+    .row{
+        flex-wrap: wrap;
+        margin-left: 198px;
+        margin-right: 50px;
+        flex-direction: column;
+        
+         
+    }
+    
+
+
+
+.wasap
+{
+    flex-wrap: wrap;
+     ;
+}
+
+.whatsapp-button
+{flex-wrap: wrap;
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la pantalla */
+    left: 40px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1452px) 
+{
+    .body{
+         flex-wrap: wrap;
+        
+    }
+    .biblio{  
+        
+        flex-wrap: wrap;
+        
+       
+        background-size: 70px;
+      width: 100%;
+      
+        
+    }
+    .header{
+        width: 100%;
+        flex-direction:column;
+        margin-left: 0px;
+        
+    }
+
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+
+
+   
+    .logo{
+        flex-wrap: wrap;
+        height: 60px;
+        margin-right: 2px;
+    
+        margin-left: -95px;
+        margin-top: 2px;
+        list-style:none;
+        align-items: center;
+        margin-right: 150px;
+        height: 50px;
+        
+     }
+    
+     .redes{
+      flex-wrap: wrap;
+     margin-left: 60px;
+     margin-top: 15px;
+     }   
+
+ 
+
+
+
+
+
+.cuerpo{
+     height: 1700px;
+         
+         
+    }
+     
+
+    .arrow{
+        flex-wrap: wrap;
+        
+        /*flex-direction: column;
+         */
+         
+    }
+
+    .col{
+        
+        width:10px;
+        margin-left: 170px;
+        margin-right: 400px;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        width: 88px;
+        
+         
+    }
+     
+    .row{
+        flex-wrap: wrap;
+        margin-left: 160px;
+        margin-right: 40px;
+        flex-direction: column;
+        
+         
+    }
+
+
+     .col{
+        margin-left: 4px;
+     }
+
+
+
+.wasap
+{
+    flex-wrap: wrap;
+     ;
+}
+
+.whatsapp-button
+{flex-wrap: wrap;
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la pantalla */
+    left: 40px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1078px) 
+{
+    .body{
+         flex-wrap: wrap;
+        
+    }
+    .biblio{  
+        
+        flex-wrap: wrap;
+        
+         
+        background-size: 70px;
+      width: 100%;
+      
+        
+    }
+    .header{
+        width: 100%;
+        flex-direction:column;
+        margin-left: ;
+        
+    }
+
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+
+
+   
+    .logo{
+        flex-wrap: wrap;
+        height: 60px;
+        margin-right: 12px;
+    
+        margin-left: -90px;
+        margin-top: 2px;
+        list-style:none;
+        align-items: center;
+        margin-right: 50px;
+        height: 50px;
+        
+     }
+    
+     .redes{
+      flex-wrap: wrap;
+     margin-left: 50px;
+     margin-top: 15px;
+     }   
+
+ 
+
+
+
+
+
+.cuerpo{
+     height: 1600px;
+         
+         
+    }
+     
+
+    .arrow{
+        flex-wrap: wrap;
+        
+        /*flex-direction: column;
+         */
+         
+    }
+
+    .col{
+        
+        width:10px;
+        margin-right: 400px;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        width: 88px;
+        
+         
+    }
+     
+    .row{
+        flex-wrap: wrap;
+        margin-left: 68px;
+        margin-right: 50px;
+        flex-direction: column;
+        
+         
+    }
+    
+
+
+
+.wasap
+{
+    flex-wrap: wrap;
+     ;
+}
+
+.whatsapp-button
+{flex-wrap: wrap;
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la pantalla */
+    left: 40px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 902px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+     width: 100%;
+     
+       
+   }
+   .header{
+       width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 18px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 90px;
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 52px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+
+
+
+
+
+
+.cuerpo{
+    height: 1600px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 300px;
+        
+   }
+   
+   .footer{
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: column;
+       width: 148px;
+       
+        
+   }
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 100px;
+       flex-direction: column;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 700px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 852px) 
+{
+    .body{
+         flex-wrap: wrap;
+        
+    }
+    .biblio{  
+        
+        flex-wrap: wrap;
+        
+        
+        background-size: 70px;
+      width: 100%;
+      
+        
+    }
+    .header{
+        width: 100%;
+        flex-direction:column;
+        margin-left: 0px;
+        
+    }
+
+    .navbar{
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+
+
+   
+    .logo{
+        flex-wrap: wrap;
+        height: 60px;
+        margin-right: 12px;
+    
+        margin-left: -15px;
+        margin-top: 2px;
+        list-style:none;
+        align-items: center;
+        margin-right: 100px;
+        height: 50px;
+        
+     }
+    
+     .redes{
+      flex-wrap: wrap;
+     margin-left: 100px;
+     margin-top: 15px;
+     }   
+
+ 
+
+
+
+
+
+.cuerpo{
+     height: 1600px;
+         
+         
+    }
+     
+
+    .arrow{
+        flex-wrap: wrap;
+        
+        /*flex-direction: column;
+         */
+         
+    }
+
+    .col{
+        
+        width:10px;
+        margin-right: 300px;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        width: 88px;
+        
+         
+    }
+     
+    .row{
+        flex-wrap: wrap;
+        margin-left: 98px;
+        margin-right: 50px;
+        flex-direction: column;
+        
+         
+    }
+    
+
+
+
+.wasap
+{
+    flex-wrap: wrap;
+     ;
+}
+
+.whatsapp-button
+{flex-wrap: wrap;
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 20px; /* Distancia desde el fondo de la pantalla */
+    left: 40px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 788px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+     width: 100%;
+     
+       
+   }
+   .header{
+       width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 16px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 60px;
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 52px;
+    margin-right: 26px;
+    margin-top: 10px;
+    }   
+
+
+
+
+
+
+
+.cuerpo{
+    height: 1600px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 300px;
+   }
+   
+   .footer{
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: column;
+       width: 148px;
+       
+        
+   }
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 100px;
+       flex-direction: column;
+       margin-left: 50px;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 790px; /* Distancia desde el fondo de la pantalla */
+   left: 600px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 737px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+     width: 100%;
+     
+       
+   }
+   .header{
+       width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 14px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -10px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 10px;  /*lo he ido bajando en cada cascada*/
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 90px;
+    margin-right: 28px;
+    margin-top: 10px;
+    }   
+
+
+
+
+
+
+
+.cuerpo{
+    height: 1600px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 300px;
+   }
+   
+   .footer{
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: column;
+       width: 148px;
+       
+        
+   }
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 70px;
+       flex-direction: column;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 400px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 707px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+     width: 100%;
+     
+       
+   }
+   .header{
+       width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 14px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -10px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 10px;  /*lo he ido bajando en cada cascada*/
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 90px;
+    margin-right: 28px;
+    margin-top: 10px;
+    }   
+
+
+
+
+
+
+
+.cuerpo{
+    height: 2600px;
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+   
+   .footer{
+       flex-wrap: wrap;
+       width: 100%;
+       flex-direction: column;
+       width: 148px;
+       
+        
+   }
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 60px;
+       margin-left: 20px;
+       flex-direction: column;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 400px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 560px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 12px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 40px;  /*lo he ido bajando en cada cascada*/
+       height: 50px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 52px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 100px;
+       flex-direction: column;
+        
+       width: 50px;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 400px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 515px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 10px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 20px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 52px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+     
+    margin-left: -26px;
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+       flex-wrap: wrap;
+       margin-right: 100px;
+       flex-direction: column;
+        
+       width: 50px;
+        
+   }
+   
+
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 300px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 515px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 8px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 60px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 10px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 30px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+   }
+
+
+   .caja{
+    width: 260px;
+    margin-left: 50px;
+   }
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -26px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+    
+       flex-wrap: wrap;
+       margin-left: 50px;
+       margin-right: 50px;
+       flex-direction: column;
+        
+       width: 10px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 8x;
+   }
+   .col3{
+    font-size: 8px;
+   }
+   .col2{
+    font-size: 8px;
+   }
+.col{
+    font-size: 8px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 300px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 466px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+        
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 8px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 40px;
+       margin-right: 10px;
+   
+       margin-left: -1px;
+       margin-top: 2px;
+       list-style:none;
+       align-items: center;
+       margin-right: 20px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 52px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 300px;
+       margin-left: 90px;
+   }
+
+.caja{
+    width: 280px;  /* achiqué la caja que tenia valor defaul antes*/
+}
+
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -26px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+     
+       flex-wrap: wrap;
+       margin-right: 20px;
+       flex-direction: column;
+        
+       width: 60px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 10px;
+    
+   }
+   .col3{
+    font-size: 10px;
+   }
+   .col2{
+    font-size: 10px;
+   }
+.col{
+    font-size: 10px;
+    margin-left: -1px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 300px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 440px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 6px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 30px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 7px;
+       list-style:none;
+       align-items: center;
+       margin-right: 20px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 45px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       margin-left: 145px;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+       margin-left: 99px;
+   }
+
+.caja{
+    width: 200px;  /* achiqué la caja que tenia valor defaul antes*/
+    margin-left: 90px;
+}
+
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -26px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+     
+       flex-wrap: wrap;
+       margin-right: -15px;
+       flex-direction: column;
+        
+       width: 30px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 10px;
+   }
+   .col3{
+    font-size: 10px;
+   }
+   .col2{
+    font-size: 10px;
+   }
+.col{
+    font-size: 10px;
+    margin-left: -1px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 200px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 350px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 3px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+     
+       margin-right: 10px;
+   
+       margin-left: 1px !important;
+       margin-top: 4px !important;
+       list-style:none;
+       align-items: center;
+       margin-right: 10px;  /*lo he ido bajando en cada cascada*/
+       height: 32px !important;
+        
+       
+    }
+   
+    .redes{
+       display: none;
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 2px;
+    margin-right: 200px !important;
+    margin-top: 10px;
+    max-width: 4px !important;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       margin-left: 145px;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+       margin-left: 99px;
+   }
+
+.caja{
+    width: 200px;  /* achiqué la caja que tenia valor defaul antes*/
+    margin-left: 40px;
+}
+
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -26px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+     
+       flex-wrap: wrap;
+       margin-right: -15px;
+       flex-direction: column;
+        
+       width: 30px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 10px;
+   }
+   .col3{
+    font-size: 10px;
+   }
+   .col2{
+    font-size: 10px;
+   }
+.col{
+    font-size: 10px;
+    margin-left: -1px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 200px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 303px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 6px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+       flex-wrap: wrap;
+       height: 30px;
+       margin-right: 10px;
+   
+       margin-left: -18px;
+       margin-top: 7px;
+       list-style:none;
+       align-items: center;
+       margin-right: 20px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+        display: none;
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 45px;
+    margin-right: 8px;
+    margin-top: 10px;
+    }   
+
+ 
+
+.cuerpo{
+    height: 2600px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       margin-left: 155px;
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+       margin-left: 99px;
+   }
+
+.caja{
+    width: 180px;  /* achiqué la caja que tenia valor defaul antes*/
+    margin-left: 30px;
+}
+
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -26px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+     
+       flex-wrap: wrap;
+       margin-right: -15px;
+       flex-direction: column;
+        
+       width: 30px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 10px;
+    margin-left: -10px;
+   }
+   .col3{
+    font-size: 10px;
+   }
+   .col2{
+    font-size: 10px;
+   }
+.col{
+    font-size: 10px;
+    margin-left: -15px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 200px; /* Distancia desde el lado derecho */
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 266px) 
+{
+
+
+    .body{
+        flex-wrap: wrap;
+       
+   }
+   .biblio{  
+       
+       flex-wrap: wrap;
+       
+       
+       background-size: 70px;
+       width: 100%;
+       /* width: 110%;                                /*acá se empiezan a generar espacios en blanco a la derecha,
+                                                                        aumenté el widthdesde 100 a 110
+                                                                         en todo gran contenedor*/
+     
+       
+   }
+   .header{
+    width: 100%;
+       flex-direction:column;
+       
+   }
+
+   .navbar{
+       width: 100%;
+       flex-direction: column;
+        
+
+   }
+.ul{
+    size: 80px;
+}
+
+.links{
+    font-size: 6px; /*achico un poco las letras del centro del header */
+      
+     
+}
+   
+  
+   .logo{
+    display: none;
+       flex-wrap: wrap;
+       height: 6px;
+       margin-right: 10px;
+   
+       margin-left: 10px;
+       margin-top: 7px;
+       list-style:none;
+       align-items: center;
+       margin-right: 20px;  /*lo he ido bajando en cada cascada*/
+       height: 40px;
+       
+    }
+   
+    .redes{
+        
+        display: none;
+     flex-wrap: wrap;     /*mantebgo todo igual en este query, solo ajusto margenes elementos del header*/
+    margin-left: 40px;
+    margin-right: 8px;
+    margin-top: 10px;
+    width: auto;
+    }   
+
+ 
+
+.cuerpo{
+    height: 3000px;
+    width: 100%;
+    /*width: 110%;                 /*agrego esto apra no tener espacio derecho*/
+        
+        
+   }
+    
+
+   .arrow{
+       flex-wrap: wrap;
+       margin-left: 170px;
+         
+       
+       
+       /*flex-direction: column;
+        */
+        
+   }
+
+   .col{
+       
+       width:10px;
+       margin-right: 400px;
+       margin-left: 99px;
+   }
+
+.caja{
+    width: 140px;  /* achiqué la caja que tenia valor defaul antes*/
+    margin-left: 30px;
+}
+
+
+   .footer{
+    height: 900px;
+    flex-wrap: wrap;
+    width: 200%;
+    
+    
+    /*width: 48px;*/
+     
+     
+     
+     
+}
+   .container{ 
+      
+    margin-left: -46px;
+    padding: -10px;
+     
+    /*width: 100%;                 /*agrego esto apra no tener espacio derecho*/}
+
+  
+    
+   .row{
+     
+       flex-wrap: wrap;
+       margin-right: -15px;
+       flex-direction: column;
+        
+       width: 30px;
+        
+   }
+   
+
+
+
+   .col1{
+    font-size: 10px;
+    margin-left: -10px;
+   }
+   .col3{
+    font-size: 10px;
+   }
+   .col2{
+    font-size: 10px;
+   }
+.col{
+    font-size: 10px;
+    margin-left: -15px;
+}
+
+
+.wasap{
+   flex-wrap: wrap;
+    ;
+}
+
+.whatsapp-button{flex-wrap: wrap;             /*he ido moviendo el left en cada cascada*/
+   position: fixed; /* Fijo en la pantalla */
+   bottom: 20px; /* Distancia desde el fondo de la pantalla */
+   left: 200px; /* Distancia desde el lado derecho */
+}
+
+
+}
